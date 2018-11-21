@@ -5,6 +5,10 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+// import clue-ui
+import ClueUI from '@/clue-ui'
+Vue.use(ClueUI)
+
 new Vue({
   router,
   store,

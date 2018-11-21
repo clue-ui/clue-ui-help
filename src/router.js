@@ -12,6 +12,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/play',
+      name: 'play',
+      component: () => import(/* webpackChunkName: "about" */ './views/Play.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
