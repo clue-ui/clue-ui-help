@@ -4,11 +4,13 @@ module.exports = {
 
   head: [
     ['link', { rel: 'icon', href: '/favicon-32x32.png' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }]
+    ['link', { rel: 'stylesheet', href: '/style.css' }],
+    // ['meta', { name: 'theme-color', content: '#3eaf7c' }]
   ],
   themeConfig: {
     nav: [
       { text: '指南', link: '/guide/' },
+      { text: '沙盘', link: '/play' },
       // { text: '组建', link: '/components/' },
       // { text: '驱动', link: '/directives/' },
       // {
@@ -41,6 +43,13 @@ module.exports = {
       ],
       '/foo/': [
       ]
+    }
+  },
+
+  // markdown
+  markdown: {
+    config: md => {
+      md.use(require('./markdown/demo'))
     }
   }
 }
