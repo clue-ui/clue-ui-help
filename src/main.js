@@ -6,6 +6,7 @@ import store from './store'
 Vue.config.productionTip = false
 
 // import clue-ui
+import '@/clue-ui/style.scss'
 import ClueUI from '@/clue-ui'
 Vue.use(ClueUI)
 

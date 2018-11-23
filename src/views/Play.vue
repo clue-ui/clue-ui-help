@@ -7,9 +7,9 @@
 
       <c-button @click="onClick" style="padding:5px;">padding-5px</c-button>
 
-      <c-button @click="onClick" width="120">width-120</c-button>
+      <c-button @click="onClick" width="220">width-120</c-button>
 
-      <c-button @click="onClick" width="120" style="color: blue;">width-120-blue</c-button>
+      <c-button @click="onClick" width="220" style="color: blue;">width-120-blue</c-button>
     </div>
 
   </div>
@@ -30,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 .btn-list {
   margin: auto;
-  width: 200px;
+  width: 600px;
   border: 1px solid #ccc;
   padding: 10px;
 
