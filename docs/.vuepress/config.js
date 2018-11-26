@@ -46,6 +46,14 @@ module.exports = {
     }
   },
 
+  // postcss todo: require .postcssrc.js
+  postcss: {
+    plugins: [
+      require('tailwindcss')('src/clue-ui/assets/tailwind.js'),
+      require('autoprefixer')
+    ]
+  },
+
   // markdown
   markdown: {
     config: md => {
