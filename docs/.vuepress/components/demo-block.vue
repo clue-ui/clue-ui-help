@@ -3,7 +3,7 @@
     <slot name="source"></slot>
 
     <div class="demo-block-meta" v-if="!isFold">
-      <div class="description">
+      <div class="description" v-if="$slots.default">
         <slot></slot>
       </div>
 
@@ -30,7 +30,7 @@ export default {
     }
   },
   mounted () {
-    // console.debug('>>>>>>>>>>>', this.$slots.default)
+    console.debug('>>>>>>>>>>>', this.$slots.default)
   }
 }
 </script>

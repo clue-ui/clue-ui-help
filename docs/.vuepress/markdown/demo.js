@@ -1,7 +1,7 @@
 const container = require('markdown-it-container')
 
 module.exports = (md) => {
-  md.use(...createContainer(md, 'spoiler'))
+  md.use(...createContainer(md, 'demo'))
 }
 
 function createContainer (md, klass) {

@@ -1,7 +1,7 @@
 # Button 按钮
   常用的操作按钮。
 
-::: spoiler 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
+::: demo 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
 
 ```vue
 <c-button>Default</c-button>
@@ -14,15 +14,15 @@
 :::
 
 
-### 属性
-
-| 名称 | 参数 | 描述 |
-| ------ | ------ | ------ |
-| width |  | 按钮宽度 |
+### Props
 
 
+| 名称 | 描述 | 类型 | 默认值 |
+| ------ | ------ | :------: | :------: |
+| type | 按钮类型, 可选值 `primary` `info` `success` `warning` `danger` | String | - |
 
-### 事件
+
+### Event
 | 事件 | 参数 | 描述 |
 | ------ | ------ | ------ |
 | click |  | 鼠标点击事件 |
