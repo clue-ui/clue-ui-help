@@ -3,7 +3,7 @@
 ::: demo
 
 ```vue
-<c-input placeholder="Enter something..."/>
+<c-input placeholder="enter value..."/>
 <c-input readonly placeholder="只读"/>
 <c-input type="password" placeholder="密码输入框"/>
 ```
