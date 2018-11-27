@@ -1,3 +1,7 @@
+body {
+  font-size: 13px !important;
+}
+
 .content {
   max-width: none !important;
   /*margin-right: 150px !important;*/

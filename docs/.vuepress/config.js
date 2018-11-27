@@ -30,7 +30,8 @@ module.exports = {
           title: '开始',
           collapsable: false,
           children: [
-            'install'
+            'install',
+            'color'
           ]
         }, {
           title: '组建',

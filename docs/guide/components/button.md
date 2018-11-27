@@ -4,9 +4,12 @@
 ::: spoiler 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
 
 ```vue
-<c-button>Default Button</c-button>
-
-<c-button>Default Button</c-button>
+<c-button>Default</c-button>
+<c-button type="primary">primary</c-button>
+<c-button type="info">Info</c-button>
+<c-button type="success">Success</c-button>
+<c-button type="warning">Warning</c-button>
+<c-button type="danger">Danger</c-button>
 ```
 :::
 
