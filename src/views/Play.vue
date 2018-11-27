@@ -3,7 +3,7 @@
     <h1>This is an about page</h1>
 
     <div class="btn-list">
-      <c-button @click="onClick">Click ME!</c-button>
+      <c-button @click="onClick" type="success">Click ME!</c-button>
 
       <c-button @click="onClick" style="padding:5px;">padding-5px</c-button>
 
