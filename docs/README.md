@@ -16,22 +16,18 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ### As Easy as 1, 2, 3
 
 ``` bash
-# install
-yarn global add vuepress@next
-# OR npm install -g vuepress@next
+# clone clue-ui
+git submodule add https://github.com/clue-ui/clue-ui.git src/clue-ui
 
-# create a markdown file
-echo '# Hello VuePress' > README.md
+# add to main.js
+import './path/clue-ui/style.scss'
 
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
+import ClueUI from './path/clue-ui'
+Vue.use(ClueUI)
 ```
 
 ::: warning COMPATIBILITY NOTE
-VuePress requires Node.js >= 8.
+Requires Node.js >= 8.9
 :::
 
 <style type="text/css">
