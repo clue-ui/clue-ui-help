@@ -20,9 +20,8 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 git submodule add https://github.com/clue-ui/clue-ui.git src/clue-ui
 
 # add to main.js
-import './path/clue-ui/style.scss'
-
-import ClueUI from './path/clue-ui'
+import '@/clue-ui/style.scss'
+import ClueUI from '@/clue-ui'
 Vue.use(ClueUI)
 ```
 
