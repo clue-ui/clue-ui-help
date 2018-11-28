@@ -1,6 +1,6 @@
 ## 开始
 
-```
+``` shell
 git clone git@github.com:clue-ui/clue-ui-help.git --recursive
 
 cd clue-ui-help
