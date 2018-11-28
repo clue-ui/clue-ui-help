@@ -13,3 +13,11 @@ body {
   /*margin-right: 150px !important;*/
   /*margin: 0px !important;*/
 }
+
+table th {
+  white-space: nowrap;
+}
+
+table th:nth-child(2) {
+  width: 100%;
+}

@@ -3,6 +3,10 @@
     <h1>This is an about page</h1>
 
     <div class="btn-list">
+
+      <c-input v-model="inputValue"/>
+
+      <h3>{{ '[' + inputValue + ']' }}</h3>
       <c-button @click="onClick" type="success">Click ME!</c-button>
 
       <c-button @click="onClick" style="padding:5px;">padding-5px</c-button>
@@ -18,6 +22,11 @@
 <script>
 export default {
   name: 'play',
+  data () {
+    return {
+      inputValue: 'alkdlaksoio'
+    }
+  },
   methods: {
     onClick (e) {
       console.debug('[onClick]', e)
