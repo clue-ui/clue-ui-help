@@ -14,10 +14,10 @@ body {
   /*margin: 0px !important;*/
 }
 
-table th {
+.theme-container.component-page table th {
   white-space: nowrap;
 }
 
-table th:nth-child(2) {
+.theme-container.component-page table th:nth-child(2) {
   width: 100%;
 }

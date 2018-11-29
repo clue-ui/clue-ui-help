@@ -1,3 +1,7 @@
+---
+pageClass: component-page
+---
+
 # Button 按钮
   常用的操作按钮。
 
@@ -15,14 +19,12 @@
 
 
 ### Props
-
-
 | 名称 | 描述 | 类型 | 默认值 |
 | ------ | ------ | :------: | :------: |
 | type | 按钮类型, 可选值 `primary` `info` `success` `warning` `danger` | String | - |
 
 
 ### Event
-| 事件 | 参数 | 描述 |
+| 事件 | 描述 | 参数 |
 | ------ | ------ | ------ |
-| click |  | 鼠标点击事件 |
+| click | 鼠标点击事件 | - |

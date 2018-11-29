@@ -30,7 +30,7 @@ export default {
     }
   },
   mounted () {
-    console.debug('>>>>>>>>>>>', this.$slots.default)
+    // console.debug('>>>>>>>>>>>', this.$slots.default)
   }
 }
 </script>
