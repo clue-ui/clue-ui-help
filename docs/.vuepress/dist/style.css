@@ -1,0 +1,23 @@
+body {
+  font-size: 13px !important;
+}
+
+.content {
+  max-width: none !important;
+  /*margin-right: 150px !important;*/
+  /*margin: 0px !important;*/
+}
+
+.page-edit, .page-nav {
+  max-width: none !important;
+  /*margin-right: 150px !important;*/
+  /*margin: 0px !important;*/
+}
+
+table th {
+  white-space: nowrap;
+}
+
+table th:nth-child(2) {
+  width: 100%;
+}
