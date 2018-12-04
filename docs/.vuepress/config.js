@@ -39,7 +39,10 @@ module.exports = {
           children: [
             'components/button',
             'components/input',
-            'components/textarea'
+            'components/textarea',
+            'components/section',
+            'components/pagination',
+            'components/breadcrumb'
           ]
         }
       ],

@@ -2,7 +2,7 @@
 pageClass: component-page
 ---
 
-# textarea 区域
+# Textarea 区域
   区域输入框
 
 ::: demo 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
