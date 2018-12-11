@@ -17,9 +17,9 @@ pageClass: component-page
 ```
 :::
 
-# 带图标的按钮
+### 图标按钮
 
-::: demo 使用icon选项使按钮展示图标功能, 可用图标见Fontawesome
+::: demo 使用 `icon` 选项使用图标功能, 可用图标见 Fontawesome
 
 ```vue
 <c-button icon="fa fa-street-view" type="primary">Default</c-button>
