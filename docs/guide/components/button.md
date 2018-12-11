@@ -6,7 +6,6 @@ pageClass: component-page
   常用的操作按钮。
 
 ::: demo 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
-
 ```vue
 <c-button>Default</c-button>
 <c-button type="primary">primary</c-button>
@@ -18,9 +17,7 @@ pageClass: component-page
 :::
 
 ### 图标按钮
-
 ::: demo 使用 `icon` 选项使用图标功能, 可用图标见 Fontawesome
-
 ```vue
 <c-button icon="fa fa-street-view" type="primary">Default</c-button>
 ```

@@ -40,6 +40,7 @@ $border-color: #dae1e7;
 
 .demo-block {
   overflow: hidden;
+  margin: 1rem 0;
   border:1px solid $border-color;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
