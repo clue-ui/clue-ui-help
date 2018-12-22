@@ -31,7 +31,8 @@ module.exports = {
           collapsable: false,
           children: [
             'install',
-            'color'
+            'color',
+            'plan'
           ]
         }, {
           title: '组建',
@@ -42,7 +43,8 @@ module.exports = {
             'components/textarea',
             'components/section',
             'components/pagination',
-            'components/breadcrumb'
+            'components/breadcrumb',
+            'components/popper'
           ]
         }
       ],
