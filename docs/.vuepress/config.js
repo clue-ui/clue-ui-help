@@ -41,6 +41,7 @@ module.exports = {
             'components/button',
             'components/input',
             'components/textarea',
+            'components/tag',
             'components/section',
             'components/pagination',
             'components/breadcrumb',
