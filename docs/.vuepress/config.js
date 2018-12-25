@@ -35,7 +35,7 @@ module.exports = {
             'plan'
           ]
         }, {
-          title: '组建',
+          title: '基础组建',
           collapsable: false,
           children: [
             'components/button',
