@@ -4,7 +4,7 @@ pageClass: component-page
 
 # Input 输入框
 
-::: demo
+::: demo 什么都没有留下
 
 ```vue
 <c-input placeholder="enter value..."/>

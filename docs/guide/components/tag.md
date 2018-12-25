@@ -29,7 +29,7 @@ pageClass: component-page
 :::
 
 ### 自定义色彩
-::: demo 使用`type`、`plain`、`round`和`circle`属性来定义99k的样式
+::: demo 使用style自定义颜色
 ```vue
 <c-tag class="bg-teal text-white">Default</c-tag>
 ```
