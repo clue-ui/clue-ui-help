@@ -9,9 +9,9 @@ pageClass: component-page
 ::: demo 说明飞走了..., 我还会回来的
 ```vue
 <template>
-  <c-checkbox value="xj">香蕉</c-checkbox>
-  <c-checkbox value="pg">苹果</c-checkbox>
-  <c-checkbox value="jz">橘子</c-checkbox>
+  <c-checkbox v-model="checkbox1" value="xj">香蕉</c-checkbox>
+  <c-checkbox v-model="checkbox1" value="pg">苹果</c-checkbox>
+  <c-checkbox v-model="checkbox1" value="jz">橘子</c-checkbox>
 </template>
 ```
 :::
@@ -20,7 +20,7 @@ pageClass: component-page
 ::: demo 说明飞走了..., 我还会回来的
 ```vue
 <template>
-  <c-checkbox-group>
+  <c-checkbox-group v-model="checkbox2">
     <c-checkbox value="pg">苹果</c-checkbox>
     <c-checkbox value="lz">李子</c-checkbox>
     <c-checkbox value="kg">苦瓜</c-checkbox>
@@ -39,3 +39,14 @@ pageClass: component-page
 | 事件 | 描述 | 参数 |
 | ------ | ------ | ------ |
 | click | 鼠标点击事件 | - |
+
+<script>
+export default {
+  data: function () {
+    return {
+      checkbox1: [],
+      checkbox2: []
+    }
+  }
+}
+</script>
