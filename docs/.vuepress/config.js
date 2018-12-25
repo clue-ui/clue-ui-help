@@ -39,14 +39,22 @@ module.exports = {
           collapsable: false,
           children: [
             'components/button',
-            'components/input',
-            'components/textarea',
             'components/tag',
             'components/section',
             'components/pagination',
             'components/breadcrumb',
             'components/popper'
           ]
+        }, {
+          title: '表单组建',
+          collapsable: false,
+          children: [
+            'components/input',
+            'components/radio',
+            'components/checkbox',
+            'components/textarea'
+          ]
+
         }
       ],
       '/foo/': [
