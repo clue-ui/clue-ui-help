@@ -3,13 +3,13 @@ body {
 }
 
 .content {
-  max-width: none !important;
+  /*max-width: none !important;*/
   /*margin-right: 150px !important;*/
   /*margin: 0px !important;*/
 }
 
 .page-edit, .page-nav {
-  max-width: none !important;
+  /*max-width: none !important;*/
   /*margin-right: 150px !important;*/
   /*margin: 0px !important;*/
 }

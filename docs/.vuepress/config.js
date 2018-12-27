@@ -52,7 +52,8 @@ module.exports = {
             'components/input',
             'components/radio',
             'components/checkbox',
-            'components/textarea'
+            'components/textarea',
+            'components/form',
           ]
 
         }
