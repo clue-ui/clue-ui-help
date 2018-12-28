@@ -2,7 +2,7 @@
 pageClass: component-page
 ---
 
-# Breadcrumb
+# Breadcrumb 面包屑
   显示当前页面的路径，快速返回之前的任意页面。
 
 ::: demo to 等同于 route-link 中的 to 参数

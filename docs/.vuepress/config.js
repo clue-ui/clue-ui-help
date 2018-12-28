@@ -39,10 +39,11 @@ module.exports = {
           collapsable: false,
           children: [
             'components/button',
+            'components/breadcrumb',
             'components/tag',
             'components/section',
             'components/pagination',
-            'components/breadcrumb',
+            'components/tabs',
             'components/popper'
           ]
         }, {
