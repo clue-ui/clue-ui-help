@@ -8,7 +8,7 @@ pageClass: component-page
 ::: demo 使用js演示脚本还有一些问题
 
 ```vue
-<c-pagination :perPage="10" :total-rows="23"/>
+<c-pagination :perPage="10" :total-rows="123"/>
 ```
 :::
 
@@ -23,3 +23,14 @@ pageClass: component-page
 | 事件 | 描述 | 参数 |
 | ------ | ------ | ------ |
 | click | 鼠标点击事件 | - |
+
+
+<script>
+export default {
+  data: function () {
+    return {
+
+    }
+  }
+}
+</script>
